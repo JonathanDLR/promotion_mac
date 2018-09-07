@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		CD020BAE2140236500632997 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD020BAD2140236500632997 /* main.swift */; };
+		CD020BB5214023A000632997 /* Personne.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD020BB4214023A000632997 /* Personne.swift */; };
+		CD020BB7214023AB00632997 /* Etudiant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD020BB6214023AB00632997 /* Etudiant.swift */; };
+		CD020BB9214023B500632997 /* Promotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD020BB8214023B500632997 /* Promotion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		CD020BAA2140236500632997 /* Promotion */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Promotion; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD020BAD2140236500632997 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		CD020BB4214023A000632997 /* Personne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Personne.swift; sourceTree = "<group>"; };
+		CD020BB6214023AB00632997 /* Etudiant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Etudiant.swift; sourceTree = "<group>"; };
+		CD020BB8214023B500632997 /* Promotion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Promotion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				CD020BAD2140236500632997 /* main.swift */,
+				CD020BB4214023A000632997 /* Personne.swift */,
+				CD020BB6214023AB00632997 /* Etudiant.swift */,
+				CD020BB8214023B500632997 /* Promotion.swift */,
 			);
 			path = Promotion;
 			sourceTree = "<group>";
@@ -120,6 +129,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD020BAE2140236500632997 /* main.swift in Sources */,
+				CD020BB9214023B500632997 /* Promotion.swift in Sources */,
+				CD020BB5214023A000632997 /* Personne.swift in Sources */,
+				CD020BB7214023AB00632997 /* Etudiant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
